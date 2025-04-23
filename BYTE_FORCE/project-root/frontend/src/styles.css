@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  height: 100vh;
+  display: flex;
+}
+
+.chat-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: white;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 12px 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chat-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #374151;
+  margin: 0;
+}
+
+.app-container {
+  flex: 1;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+
+/* Окно чата */
+.chat-window {
+  flex: 1;
+  padding: 24px;
+  overflow-y: auto;
+  background-color: #f9fafb;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Сообщения */
+.message {
+  max-width: 75%;
+  margin: 8px 0;
+  padding: 12px 18px;
+  border-radius: 14px;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+  transition: background-color 0.3s ease;
+  font-size: 15px;
+}
+
+/* Пользовательские сообщения */
+.message.user {
+  align-self: flex-end;
+  background-color: #dcf2ff;
+  color: #111827;
+  margin-left: auto;
+}
+
+/* Сообщения от ИИ */
+.message.ai {
+  align-self: flex-start;
+  background-color: #ffffff;
+  color: #1f2937;
+  border: 1px solid #e5e7eb;
+}
+
+/* Ввод */
+.chat-input {
+  display: flex;
+  padding: 16px;
+  background-color: #ffffff;
+  border-top: 1px solid #e5e7eb;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 12px 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  font-size: 15px;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.chat-input input:focus {
+  border-color: #6366f1;
+}
+
+/* Кнопка отправки */
+.chat-input button {
+  margin-left: 12px;
+  padding: 12px 20px;
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.chat-input button:hover {
+  background-color: #4338ca;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.message {
+  animation: fadeInUp 0.4s ease both;
+}
+
+/* Адаптация для мобильных */
+@media (max-width: 768px) {
+  .chat-input {
+    padding: 12px;
+  }
+
+  .file-upload-button {
+    padding: 0 8px;
+  }
+}
+
+.ai-warning {
+  color: #ff9800;
+}
+
+.ai-error {
+  color: #f44336;
+}
+
+.ai-info {
+  color: #2196f3;
+}
+
+.reset-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5em;
+}
