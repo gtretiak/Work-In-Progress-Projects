@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie-edge">
+	<title>My first Webpage</title>
+	<style>
+		div{
+			color: black;
+			background:yellow;
+		}
+	</style>
+	<link rel="stylesheet" href="./style.css"></link>
+</head>
+	<body>
+		<h1>hi1</h1> //heading tag
+		<h2>hi2</h2>
+		<h3>hi3</h3>
+		<h4>hi4</h4>
+		<h5>hi5</h5>
+		<h6>hi6</h6>
+		<p>Paragraph tag:</p>
+		<p>Hello, World!</p>
+ul is an unordered list (it's a container for list items, displayed as bullet points)
+ol is an ordered list (it's a container for list items, displayed as numbered points)
+li is a list item
+		<ul> 
+			<li >Eggs</li>
+			<li id="milk_products">Milk</li>
+			<li>Cheese</li>
+		</ul>
+		<ol>
+			<li class="quotes">veni</li>
+			<li class="quotes">vedi</li>
+			<li class="quotes">vici</li>
+		</ol>
+a - is a link with an atribute 
+		<a href="https://google.com">Add item</a>
+for image rendering we need provide code with source
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXP0L0N_R3ZA8yq5xTTkzetXnWzSMYO0jEKaxy847Hlc3Lx5K_0rdn0cc4q4RZ0bmqU9Y&usqp=CAU" border=1>
+Then we have tables of data with table rows "tr" and actual data "td"
+<table border=1>
+	<tr>
+		<td>first data, first row</td>
+		<td>second data, the same row</td>
+	</tr>
+	<tr>
+		<td>first data, second row</td>
+		<td>second data, the same row</td>
+	</tr>
+</table>
+Also we have div elements that we can use as a container
+<div>
+	We use here internal style method (all the divs are going to be this color)
+</div>
+Also, we have forms with action atribute to determine where we want to post to and a method
+<form action="index.html" method="GET">
+	<input type="checkbox" name="checkbox" placeholder="Checkbox">
+	<input type="text" name="name" placeholder="Name">
+	<button type="submit">Submit</button>
+</form>
+	<p style="color: black; background: red">CSS is awesome</p>
+	<p style="color: blue">And this is inline style method</p>
+	<p style="color: blue">We also have at out disposal another method (see div)</p>
+	<p>Finally we can determine style externally at style.css file</p>
+	<div class="box1">I'm a box</div>
+	<div class="box2">I'm a 2 box</div>
+	<div id="JS"></div>
+	<div id="new"></div>
+	<script src="./script.js"></script>
+	<script>
+		console.log('hello');
+	</script>
+	</body>
+</html>
+

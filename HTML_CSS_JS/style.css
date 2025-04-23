@@ -1,0 +1,40 @@
+#milk_products{
+	color:white;
+	background:green;
+	font-size:33px;
+	font-style:italic;
+}
+.quotes{
+	color:orange;
+	background:black;
+	font-size:33px;
+	font-style:bold;
+	border:2px solid red;
+}
+h4{
+	color:pink;
+	background:black;
+	font-style:bold;
+	width:30px;
+	height:30px;
+	padding:10px;
+	float:left;
+}
+table{
+	margin:10px;
+}
+.box1{
+	position: absolute;
+	top:0px;
+	left:100px;
+}
+.box2{
+	position: absolute;
+	top:0px;
+	left:230px;
+}
+#new{
+	position: absolute;
+	top:0px;
+	left:600px;
+}
