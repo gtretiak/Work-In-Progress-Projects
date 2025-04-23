@@ -1,0 +1,1329 @@
+category: d
+1.OK ==453504== 2 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453504==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453504==    by 0x407D7E: ft_special (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453504==    by 0x407C9C: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453504==    by 0x4079A9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453504==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453504==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453504==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453504==    by 0x404D76: main (d_test.cpp:26)
+==453504== 
+2.OK ==453505== 3 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453505==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453505==    by 0x407CC4: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453505==    by 0x4079A9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453505==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453505==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453505==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453505==    by 0x404DA2: main (d_test.cpp:27)
+==453505== 
+3.OK ==453506== 2 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453506==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453506==    by 0x407CC4: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453506==    by 0x4079A9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453506==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453506==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453506==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453506==    by 0x404DCE: main (d_test.cpp:28)
+==453506== 
+4.OK ==453508== 2 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453508==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453508==    by 0x407CC4: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453508==    by 0x4079A9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453508==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453508==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453508==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453508==    by 0x404DFA: main (d_test.cpp:29)
+==453508== 
+5.OK ==453509== 3 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453509==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453509==    by 0x407CC4: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453509==    by 0x4079A9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453509==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453509==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453509==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453509==    by 0x404E26: main (d_test.cpp:30)
+==453509== 
+6.OK ==453510== 3 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453510==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453510==    by 0x407CC4: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453510==    by 0x4079A9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453510==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453510==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453510==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453510==    by 0x404E52: main (d_test.cpp:31)
+==453510== 
+7.OK ==453511== 3 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453511==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453511==    by 0x407CC4: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453511==    by 0x4079A9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453511==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453511==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453511==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453511==    by 0x404E7E: main (d_test.cpp:32)
+==453511== 
+8.OK ==453512== 3 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453512==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453512==    by 0x407CC4: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453512==    by 0x4079A9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453512==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453512==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453512==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453512==    by 0x404EAA: main (d_test.cpp:33)
+==453512== 
+9.OK ==453513== 3 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453513==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453513==    by 0x407CC4: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453513==    by 0x4079A9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453513==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453513==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453513==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453513==    by 0x404ED6: main (d_test.cpp:34)
+==453513== 
+10.OK ==453514== 3 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453514==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453514==    by 0x407CC4: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453514==    by 0x4079A9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453514==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453514==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453514==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453514==    by 0x404F02: main (d_test.cpp:35)
+==453514== 
+11.OK ==453515== 4 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453515==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453515==    by 0x407CC4: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453515==    by 0x4079A9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453515==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453515==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453515==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453515==    by 0x404F2E: main (d_test.cpp:36)
+==453515== 
+12.OK ==453516== 4 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453516==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453516==    by 0x407CC4: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453516==    by 0x4079A9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453516==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453516==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453516==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453516==    by 0x404F5A: main (d_test.cpp:37)
+==453516== 
+13.OK ==453517== 3 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453517==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453517==    by 0x407CC4: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453517==    by 0x4079A9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453517==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453517==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453517==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453517==    by 0x404F86: main (d_test.cpp:38)
+==453517== 
+14.OK ==453518== 4 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453518==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453518==    by 0x407CC4: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453518==    by 0x4079A9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453518==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453518==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453518==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453518==    by 0x404FB2: main (d_test.cpp:39)
+==453518== 
+15.OK ==453519== 4 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453519==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453519==    by 0x407CC4: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453519==    by 0x4079A9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453519==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453519==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453519==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453519==    by 0x404FDE: main (d_test.cpp:40)
+==453519== 
+16.OK ==453520== 4 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453520==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453520==    by 0x407CC4: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453520==    by 0x4079A9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453520==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453520==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453520==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453520==    by 0x40500A: main (d_test.cpp:41)
+==453520== 
+17.OK ==453521== 4 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453521==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453521==    by 0x407CC4: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453521==    by 0x4079A9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453521==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453521==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453521==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453521==    by 0x405036: main (d_test.cpp:42)
+==453521== 
+18.OK ==453522== 4 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453522==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453522==    by 0x407CC4: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453522==    by 0x4079A9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453522==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453522==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453522==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453522==    by 0x405062: main (d_test.cpp:43)
+==453522== 
+19.OK ==453523== 4 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453523==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453523==    by 0x407CC4: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453523==    by 0x4079A9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453523==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453523==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453523==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453523==    by 0x40508E: main (d_test.cpp:44)
+==453523== 
+20.OK ==453524== 5 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453524==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453524==    by 0x407CC4: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453524==    by 0x4079A9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453524==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453524==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453524==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453524==    by 0x4050BA: main (d_test.cpp:45)
+==453524== 
+21.OK ==453525== 5 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453525==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453525==    by 0x407CC4: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453525==    by 0x4079A9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453525==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453525==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453525==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453525==    by 0x4050E6: main (d_test.cpp:46)
+==453525== 
+22.OK ==453526== 11 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453526==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453526==    by 0x407CC4: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453526==    by 0x4079A9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453526==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453526==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453526==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453526==    by 0x405112: main (d_test.cpp:47)
+==453526== 
+23.OK ==453527== 12 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453527==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453527==    by 0x40821F: ft_strdup (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453527==    by 0x407DD5: ft_special (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453527==    by 0x407C9C: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453527==    by 0x4079A9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453527==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453527==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453527==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453527==    by 0x40513E: main (d_test.cpp:48)
+==453527== 
+24.OK ==453528== 3 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453528==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453528==    by 0x407CC4: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453528==    by 0x4079A9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453528==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453528==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453528==    by 0x405B57: void print<long>(char const*, long) (print.hpp:66)
+==453528==    by 0x40516F: main (d_test.cpp:49)
+==453528== 
+25.OK ==453529== 2 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453529==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453529==    by 0x407D7E: ft_special (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453529==    by 0x407C9C: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453529==    by 0x4079A9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453529==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453529==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453529==    by 0x405B57: void print<long>(char const*, long) (print.hpp:66)
+==453529==    by 0x4051A0: main (d_test.cpp:50)
+==453529== 
+26.OK ==453530== 3 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453530==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453530==    by 0x407CC4: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453530==    by 0x4079A9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453530==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453530==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453530==    by 0x406114: void print<unsigned int>(char const*, unsigned int) (print.hpp:66)
+==453530==    by 0x4051CC: main (d_test.cpp:51)
+==453530== 
+27.OK ==453532== 3 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453532==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453532==    by 0x407CC4: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453532==    by 0x4079A9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453532==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453532==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453532==    by 0x4066D7: void print<unsigned long>(char const*, unsigned long) (print.hpp:66)
+==453532==    by 0x4051FA: main (d_test.cpp:52)
+==453532== 
+28.OK ==453533== 3 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453533==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453533==    by 0x407CC4: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453533==    by 0x4079A9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453533==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453533==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453533==    by 0x406C97: void print<long long>(char const*, long long) (print.hpp:66)
+==453533==    by 0x40522B: main (d_test.cpp:53)
+==453533== 
+29.OK ==453534== 4 bytes in 2 blocks are definitely lost in loss record 1 of 3
+==453534==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453534==    by 0x407D7E: ft_special (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453534==    by 0x407C9C: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453534==    by 0x4079A9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453534==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453534==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453534==    by 0x4072A5: void print<int, int, long, long, unsigned long, int, int>(char const*, int, int, long, long, unsigned long, int, int) (print.hpp:66)
+==453534==    by 0x405288: main (d_test.cpp:54)
+==453534== 
+==453534== 12 bytes in 1 blocks are definitely lost in loss record 2 of 3
+==453534==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453534==    by 0x40821F: ft_strdup (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453534==    by 0x407DD5: ft_special (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453534==    by 0x407C9C: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453534==    by 0x4079A9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453534==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453534==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453534==    by 0x4072A5: void print<int, int, long, long, unsigned long, int, int>(char const*, int, int, long, long, unsigned long, int, int) (print.hpp:66)
+==453534==    by 0x405288: main (d_test.cpp:54)
+==453534== 
+==453534== 21 bytes in 4 blocks are definitely lost in loss record 3 of 3
+==453534==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453534==    by 0x407CC4: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453534==    by 0x4079A9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453534==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453534==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/d_test)
+==453534==    by 0x4072A5: void print<int, int, long, long, unsigned long, int, int>(char const*, int, int, long, long, unsigned long, int, int) (print.hpp:66)
+==453534==    by 0x405288: main (d_test.cpp:54)
+==453534== 
+
+category: i
+1.OK ==453548== 2 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453548==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453548==    by 0x407D7E: ft_special (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453548==    by 0x407C9C: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453548==    by 0x4079A9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453548==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453548==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453548==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453548==    by 0x404D76: main (i_test.cpp:26)
+==453548== 
+2.OK ==453549== 3 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453549==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453549==    by 0x407CC4: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453549==    by 0x4079A9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453549==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453549==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453549==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453549==    by 0x404DA2: main (i_test.cpp:27)
+==453549== 
+3.OK ==453550== 2 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453550==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453550==    by 0x407CC4: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453550==    by 0x4079A9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453550==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453550==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453550==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453550==    by 0x404DCE: main (i_test.cpp:28)
+==453550== 
+4.OK ==453551== 2 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453551==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453551==    by 0x407CC4: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453551==    by 0x4079A9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453551==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453551==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453551==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453551==    by 0x404DFA: main (i_test.cpp:29)
+==453551== 
+5.OK ==453552== 3 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453552==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453552==    by 0x407CC4: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453552==    by 0x4079A9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453552==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453552==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453552==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453552==    by 0x404E26: main (i_test.cpp:30)
+==453552== 
+6.OK ==453553== 3 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453553==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453553==    by 0x407CC4: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453553==    by 0x4079A9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453553==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453553==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453553==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453553==    by 0x404E52: main (i_test.cpp:31)
+==453553== 
+7.OK ==453554== 3 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453554==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453554==    by 0x407CC4: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453554==    by 0x4079A9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453554==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453554==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453554==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453554==    by 0x404E7E: main (i_test.cpp:32)
+==453554== 
+8.OK ==453556== 3 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453556==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453556==    by 0x407CC4: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453556==    by 0x4079A9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453556==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453556==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453556==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453556==    by 0x404EAA: main (i_test.cpp:33)
+==453556== 
+9.OK ==453558== 3 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453558==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453558==    by 0x407CC4: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453558==    by 0x4079A9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453558==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453558==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453558==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453558==    by 0x404ED6: main (i_test.cpp:34)
+==453558== 
+10.OK ==453559== 3 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453559==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453559==    by 0x407CC4: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453559==    by 0x4079A9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453559==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453559==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453559==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453559==    by 0x404F02: main (i_test.cpp:35)
+==453559== 
+11.OK ==453560== 4 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453560==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453560==    by 0x407CC4: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453560==    by 0x4079A9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453560==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453560==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453560==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453560==    by 0x404F2E: main (i_test.cpp:36)
+==453560== 
+12.OK ==453561== 4 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453561==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453561==    by 0x407CC4: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453561==    by 0x4079A9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453561==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453561==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453561==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453561==    by 0x404F5A: main (i_test.cpp:37)
+==453561== 
+13.OK ==453562== 3 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453562==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453562==    by 0x407CC4: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453562==    by 0x4079A9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453562==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453562==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453562==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453562==    by 0x404F86: main (i_test.cpp:38)
+==453562== 
+14.OK ==453563== 4 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453563==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453563==    by 0x407CC4: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453563==    by 0x4079A9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453563==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453563==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453563==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453563==    by 0x404FB2: main (i_test.cpp:39)
+==453563== 
+15.OK ==453565== 4 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453565==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453565==    by 0x407CC4: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453565==    by 0x4079A9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453565==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453565==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453565==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453565==    by 0x404FDE: main (i_test.cpp:40)
+==453565== 
+16.OK ==453566== 4 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453566==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453566==    by 0x407CC4: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453566==    by 0x4079A9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453566==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453566==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453566==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453566==    by 0x40500A: main (i_test.cpp:41)
+==453566== 
+17.OK ==453567== 4 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453567==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453567==    by 0x407CC4: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453567==    by 0x4079A9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453567==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453567==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453567==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453567==    by 0x405036: main (i_test.cpp:42)
+==453567== 
+18.OK ==453568== 4 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453568==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453568==    by 0x407CC4: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453568==    by 0x4079A9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453568==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453568==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453568==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453568==    by 0x405062: main (i_test.cpp:43)
+==453568== 
+19.OK ==453569== 4 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453569==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453569==    by 0x407CC4: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453569==    by 0x4079A9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453569==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453569==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453569==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453569==    by 0x40508E: main (i_test.cpp:44)
+==453569== 
+20.OK ==453571== 5 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453571==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453571==    by 0x407CC4: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453571==    by 0x4079A9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453571==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453571==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453571==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453571==    by 0x4050BA: main (i_test.cpp:45)
+==453571== 
+21.OK ==453572== 5 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453572==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453572==    by 0x407CC4: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453572==    by 0x4079A9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453572==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453572==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453572==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453572==    by 0x4050E6: main (i_test.cpp:46)
+==453572== 
+22.OK ==453573== 11 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453573==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453573==    by 0x407CC4: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453573==    by 0x4079A9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453573==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453573==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453573==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453573==    by 0x405112: main (i_test.cpp:47)
+==453573== 
+23.OK ==453574== 12 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453574==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453574==    by 0x40821F: ft_strdup (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453574==    by 0x407DD5: ft_special (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453574==    by 0x407C9C: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453574==    by 0x4079A9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453574==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453574==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453574==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453574==    by 0x40513E: main (i_test.cpp:48)
+==453574== 
+24.OK ==453575== 3 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453575==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453575==    by 0x407CC4: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453575==    by 0x4079A9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453575==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453575==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453575==    by 0x405B57: void print<long>(char const*, long) (print.hpp:66)
+==453575==    by 0x40516F: main (i_test.cpp:49)
+==453575== 
+25.OK ==453576== 2 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453576==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453576==    by 0x407D7E: ft_special (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453576==    by 0x407C9C: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453576==    by 0x4079A9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453576==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453576==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453576==    by 0x405B57: void print<long>(char const*, long) (print.hpp:66)
+==453576==    by 0x4051A0: main (i_test.cpp:50)
+==453576== 
+26.OK ==453577== 3 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453577==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453577==    by 0x407CC4: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453577==    by 0x4079A9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453577==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453577==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453577==    by 0x406114: void print<unsigned int>(char const*, unsigned int) (print.hpp:66)
+==453577==    by 0x4051CC: main (i_test.cpp:51)
+==453577== 
+27.OK ==453578== 3 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453578==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453578==    by 0x407CC4: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453578==    by 0x4079A9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453578==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453578==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453578==    by 0x4066D7: void print<unsigned long>(char const*, unsigned long) (print.hpp:66)
+==453578==    by 0x4051FA: main (i_test.cpp:52)
+==453578== 
+28.OK ==453579== 3 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453579==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453579==    by 0x407CC4: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453579==    by 0x4079A9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453579==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453579==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453579==    by 0x406C97: void print<long long>(char const*, long long) (print.hpp:66)
+==453579==    by 0x40522B: main (i_test.cpp:53)
+==453579== 
+29.OK ==453580== 4 bytes in 2 blocks are definitely lost in loss record 1 of 3
+==453580==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453580==    by 0x407D7E: ft_special (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453580==    by 0x407C9C: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453580==    by 0x4079A9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453580==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453580==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453580==    by 0x4072A5: void print<int, int, long, long, unsigned long, int, int>(char const*, int, int, long, long, unsigned long, int, int) (print.hpp:66)
+==453580==    by 0x405288: main (i_test.cpp:54)
+==453580== 
+==453580== 12 bytes in 1 blocks are definitely lost in loss record 2 of 3
+==453580==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453580==    by 0x40821F: ft_strdup (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453580==    by 0x407DD5: ft_special (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453580==    by 0x407C9C: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453580==    by 0x4079A9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453580==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453580==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453580==    by 0x4072A5: void print<int, int, long, long, unsigned long, int, int>(char const*, int, int, long, long, unsigned long, int, int) (print.hpp:66)
+==453580==    by 0x405288: main (i_test.cpp:54)
+==453580== 
+==453580== 21 bytes in 4 blocks are definitely lost in loss record 3 of 3
+==453580==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453580==    by 0x407CC4: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453580==    by 0x4079A9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453580==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453580==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/i_test)
+==453580==    by 0x4072A5: void print<int, int, long, long, unsigned long, int, int>(char const*, int, int, long, long, unsigned long, int, int) (print.hpp:66)
+==453580==    by 0x405288: main (i_test.cpp:54)
+==453580== 
+
+category: u
+1.KO ==453594== 1 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453594==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453594==    by 0x407F18: ft_unitoa (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453594==    by 0x407A37: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453594==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453594==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453594==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453594==    by 0x404D76: main (u_test.cpp:26)
+==453594== 
+2.OK ==453595== 11 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453595==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453595==    by 0x407F18: ft_unitoa (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453595==    by 0x407A37: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453595==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453595==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453595==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453595==    by 0x404DA2: main (u_test.cpp:27)
+==453595== 
+3.OK ==453596== 2 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453596==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453596==    by 0x407F18: ft_unitoa (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453596==    by 0x407A37: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453596==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453596==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453596==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453596==    by 0x404DCE: main (u_test.cpp:28)
+==453596== 
+4.OK ==453597== 2 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453597==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453597==    by 0x407F18: ft_unitoa (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453597==    by 0x407A37: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453597==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453597==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453597==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453597==    by 0x404DFA: main (u_test.cpp:29)
+==453597== 
+5.OK ==453598== 3 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453598==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453598==    by 0x407F18: ft_unitoa (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453598==    by 0x407A37: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453598==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453598==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453598==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453598==    by 0x404E26: main (u_test.cpp:30)
+==453598== 
+6.OK ==453599== 3 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453599==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453599==    by 0x407F18: ft_unitoa (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453599==    by 0x407A37: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453599==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453599==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453599==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453599==    by 0x404E52: main (u_test.cpp:31)
+==453599== 
+7.OK ==453600== 3 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453600==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453600==    by 0x407F18: ft_unitoa (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453600==    by 0x407A37: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453600==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453600==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453600==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453600==    by 0x404E7E: main (u_test.cpp:32)
+==453600== 
+8.OK ==453601== 3 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453601==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453601==    by 0x407F18: ft_unitoa (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453601==    by 0x407A37: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453601==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453601==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453601==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453601==    by 0x404EAA: main (u_test.cpp:33)
+==453601== 
+9.OK ==453602== 3 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453602==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453602==    by 0x407F18: ft_unitoa (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453602==    by 0x407A37: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453602==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453602==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453602==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453602==    by 0x404ED6: main (u_test.cpp:34)
+==453602== 
+10.OK ==453605== 3 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453605==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453605==    by 0x407F18: ft_unitoa (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453605==    by 0x407A37: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453605==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453605==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453605==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453605==    by 0x404F02: main (u_test.cpp:35)
+==453605== 
+11.OK ==453607== 4 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453607==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453607==    by 0x407F18: ft_unitoa (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453607==    by 0x407A37: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453607==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453607==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453607==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453607==    by 0x404F2E: main (u_test.cpp:36)
+==453607== 
+12.OK ==453608== 4 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453608==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453608==    by 0x407F18: ft_unitoa (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453608==    by 0x407A37: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453608==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453608==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453608==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453608==    by 0x404F5A: main (u_test.cpp:37)
+==453608== 
+13.OK ==453610== 11 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453610==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453610==    by 0x407F18: ft_unitoa (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453610==    by 0x407A37: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453610==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453610==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453610==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453610==    by 0x404F86: main (u_test.cpp:38)
+==453610== 
+14.OK ==453612== 11 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453612==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453612==    by 0x407F18: ft_unitoa (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453612==    by 0x407A37: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453612==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453612==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453612==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453612==    by 0x404FB2: main (u_test.cpp:39)
+==453612== 
+15.OK ==453613== 11 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453613==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453613==    by 0x407F18: ft_unitoa (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453613==    by 0x407A37: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453613==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453613==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453613==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453613==    by 0x404FDE: main (u_test.cpp:40)
+==453613== 
+16.OK ==453614== 11 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453614==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453614==    by 0x407F18: ft_unitoa (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453614==    by 0x407A37: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453614==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453614==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453614==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453614==    by 0x40500A: main (u_test.cpp:41)
+==453614== 
+17.OK ==453615== 11 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453615==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453615==    by 0x407F18: ft_unitoa (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453615==    by 0x407A37: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453615==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453615==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453615==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453615==    by 0x405036: main (u_test.cpp:42)
+==453615== 
+18.OK ==453616== 11 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453616==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453616==    by 0x407F18: ft_unitoa (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453616==    by 0x407A37: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453616==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453616==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453616==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453616==    by 0x405062: main (u_test.cpp:43)
+==453616== 
+19.OK ==453617== 11 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453617==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453617==    by 0x407F18: ft_unitoa (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453617==    by 0x407A37: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453617==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453617==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453617==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453617==    by 0x40508E: main (u_test.cpp:44)
+==453617== 
+20.OK ==453618== 11 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453618==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453618==    by 0x407F18: ft_unitoa (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453618==    by 0x407A37: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453618==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453618==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453618==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453618==    by 0x4050BA: main (u_test.cpp:45)
+==453618== 
+21.OK ==453619== 11 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453619==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453619==    by 0x407F18: ft_unitoa (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453619==    by 0x407A37: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453619==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453619==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453619==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453619==    by 0x4050E6: main (u_test.cpp:46)
+==453619== 
+22.OK ==453620== 11 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453620==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453620==    by 0x407F18: ft_unitoa (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453620==    by 0x407A37: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453620==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453620==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453620==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453620==    by 0x405112: main (u_test.cpp:47)
+==453620== 
+23.OK ==453621== 11 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453621==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453621==    by 0x407F18: ft_unitoa (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453621==    by 0x407A37: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453621==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453621==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453621==    by 0x405594: void print<int>(char const*, int) (print.hpp:66)
+==453621==    by 0x40513E: main (u_test.cpp:48)
+==453621== 
+24.OK ==453622== 11 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453622==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453622==    by 0x407F18: ft_unitoa (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453622==    by 0x407A37: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453622==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453622==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453622==    by 0x405B57: void print<long>(char const*, long) (print.hpp:66)
+==453622==    by 0x40516F: main (u_test.cpp:49)
+==453622== 
+25.KO ==453623== 1 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453623==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453623==    by 0x407F18: ft_unitoa (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453623==    by 0x407A37: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453623==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453623==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453623==    by 0x405B57: void print<long>(char const*, long) (print.hpp:66)
+==453623==    by 0x4051A0: main (u_test.cpp:50)
+==453623== 
+26.OK ==453624== 11 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453624==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453624==    by 0x407F18: ft_unitoa (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453624==    by 0x407A37: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453624==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453624==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453624==    by 0x406114: void print<unsigned int>(char const*, unsigned int) (print.hpp:66)
+==453624==    by 0x4051CC: main (u_test.cpp:51)
+==453624== 
+27.OK ==453625== 11 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453625==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453625==    by 0x407F18: ft_unitoa (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453625==    by 0x407A37: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453625==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453625==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453625==    by 0x4066D7: void print<unsigned long>(char const*, unsigned long) (print.hpp:66)
+==453625==    by 0x4051FA: main (u_test.cpp:52)
+==453625== 
+28.OK ==453626== 11 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==453626==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453626==    by 0x407F18: ft_unitoa (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453626==    by 0x407A37: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453626==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453626==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453626==    by 0x406C97: void print<long long>(char const*, long long) (print.hpp:66)
+==453626==    by 0x40522B: main (u_test.cpp:53)
+==453626== 
+29.KO ==453628== 57 bytes in 7 blocks are definitely lost in loss record 1 of 1
+==453628==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453628==    by 0x407F18: ft_unitoa (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453628==    by 0x407A37: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453628==    by 0x4078F9: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453628==    by 0x407750: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/u_test)
+==453628==    by 0x4072A5: void print<int, int, long, long, unsigned long, int, int>(char const*, int, int, long, long, unsigned long, int, int) (print.hpp:66)
+==453628==    by 0x405288: main (u_test.cpp:54)
+==453628== 
+
+category: x
+1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7.OK 8.OK 9.OK 10.OK 11.OK 12.OK 13.OK 14.OK 15.OK 16.OK 17.OK 18.OK 19.OK 20.OK 21.OK 22.OK 23.OK 24.KO 25.KO 26.OK 27.KO 28.KO ==453712== Conditional jump or move depends on uninitialised value(s)
+==453712==    at 0x408056: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x407B16: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x407949: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x4077A0: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x4072F5: void print<int, int, long, long, unsigned long, int, int>(char const*, int, int, long, long, unsigned long, int, int) (print.hpp:66)
+==453712==    by 0x405288: main (x_test.cpp:54)
+==453712==  Uninitialised value was created by a stack allocation
+==453712==    at 0x406FD4: void print<int, int, long, long, unsigned long, int, int>(char const*, int, int, long, long, unsigned long, int, int) (print.hpp:38)
+==453712== 
+==453712== Conditional jump or move depends on uninitialised value(s)
+==453712==    at 0x408085: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x407B16: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x407949: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x4077A0: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x4072F5: void print<int, int, long, long, unsigned long, int, int>(char const*, int, int, long, long, unsigned long, int, int) (print.hpp:66)
+==453712==    by 0x405288: main (x_test.cpp:54)
+==453712==  Uninitialised value was created by a stack allocation
+==453712==    at 0x406FD4: void print<int, int, long, long, unsigned long, int, int>(char const*, int, int, long, long, unsigned long, int, int) (print.hpp:38)
+==453712== 
+==453712== Conditional jump or move depends on uninitialised value(s)
+==453712==    at 0x408056: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x408097: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x407B16: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x407949: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x4077A0: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x4072F5: void print<int, int, long, long, unsigned long, int, int>(char const*, int, int, long, long, unsigned long, int, int) (print.hpp:66)
+==453712==    by 0x405288: main (x_test.cpp:54)
+==453712==  Uninitialised value was created by a stack allocation
+==453712==    at 0x406FD4: void print<int, int, long, long, unsigned long, int, int>(char const*, int, int, long, long, unsigned long, int, int) (print.hpp:38)
+==453712== 
+==453712== Conditional jump or move depends on uninitialised value(s)
+==453712==    at 0x408085: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x408097: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x407B16: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x407949: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x4077A0: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x4072F5: void print<int, int, long, long, unsigned long, int, int>(char const*, int, int, long, long, unsigned long, int, int) (print.hpp:66)
+==453712==    by 0x405288: main (x_test.cpp:54)
+==453712==  Uninitialised value was created by a stack allocation
+==453712==    at 0x406FD4: void print<int, int, long, long, unsigned long, int, int>(char const*, int, int, long, long, unsigned long, int, int) (print.hpp:38)
+==453712== 
+==453712== Conditional jump or move depends on uninitialised value(s)
+==453712==    at 0x408056: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x408097: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x408097: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x407B16: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x407949: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x4077A0: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x4072F5: void print<int, int, long, long, unsigned long, int, int>(char const*, int, int, long, long, unsigned long, int, int) (print.hpp:66)
+==453712==    by 0x405288: main (x_test.cpp:54)
+==453712==  Uninitialised value was created by a stack allocation
+==453712==    at 0x406FD4: void print<int, int, long, long, unsigned long, int, int>(char const*, int, int, long, long, unsigned long, int, int) (print.hpp:38)
+==453712== 
+==453712== Conditional jump or move depends on uninitialised value(s)
+==453712==    at 0x408085: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x408097: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x408097: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x407B16: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x407949: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x4077A0: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x4072F5: void print<int, int, long, long, unsigned long, int, int>(char const*, int, int, long, long, unsigned long, int, int) (print.hpp:66)
+==453712==    by 0x405288: main (x_test.cpp:54)
+==453712==  Uninitialised value was created by a stack allocation
+==453712==    at 0x406FD4: void print<int, int, long, long, unsigned long, int, int>(char const*, int, int, long, long, unsigned long, int, int) (print.hpp:38)
+==453712== 
+==453712== Conditional jump or move depends on uninitialised value(s)
+==453712==    at 0x408056: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x408097: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x408097: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x408097: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x407B16: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x407949: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x4077A0: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x4072F5: void print<int, int, long, long, unsigned long, int, int>(char const*, int, int, long, long, unsigned long, int, int) (print.hpp:66)
+==453712==    by 0x405288: main (x_test.cpp:54)
+==453712==  Uninitialised value was created by a stack allocation
+==453712==    at 0x406FD4: void print<int, int, long, long, unsigned long, int, int>(char const*, int, int, long, long, unsigned long, int, int) (print.hpp:38)
+==453712== 
+==453712== Conditional jump or move depends on uninitialised value(s)
+==453712==    at 0x408085: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x408097: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x408097: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x408097: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x407B16: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x407949: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x4077A0: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x4072F5: void print<int, int, long, long, unsigned long, int, int>(char const*, int, int, long, long, unsigned long, int, int) (print.hpp:66)
+==453712==    by 0x405288: main (x_test.cpp:54)
+==453712==  Uninitialised value was created by a stack allocation
+==453712==    at 0x406FD4: void print<int, int, long, long, unsigned long, int, int>(char const*, int, int, long, long, unsigned long, int, int) (print.hpp:38)
+==453712== 
+==453712== Syscall param write(buf) contains uninitialised byte(s)
+==453712==    at 0x4CB8887: write (write.c:26)
+==453712==    by 0x408072: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x408097: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x408097: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x408097: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x408097: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x408097: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x408097: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x408097: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x408097: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x408097: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x407B16: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==  Uninitialised value was created by a stack allocation
+==453712==    at 0x406FD4: void print<int, int, long, long, unsigned long, int, int>(char const*, int, int, long, long, unsigned long, int, int) (print.hpp:38)
+==453712== 
+==453712== Conditional jump or move depends on uninitialised value(s)
+==453712==    at 0x408056: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x4080AA: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x408097: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x408097: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x408097: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x408097: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x408097: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x408097: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x408097: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x408097: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x407B16: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x407949: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==  Uninitialised value was created by a stack allocation
+==453712==    at 0x406FD4: void print<int, int, long, long, unsigned long, int, int>(char const*, int, int, long, long, unsigned long, int, int) (print.hpp:38)
+==453712== 
+==453712== Syscall param write(buf) contains uninitialised byte(s)
+==453712==    at 0x4CB8887: write (write.c:26)
+==453712==    by 0x408072: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x4080AA: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x408097: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x408097: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x408097: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x408097: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x408097: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x408097: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x408097: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x408097: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==    by 0x407B16: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/x_test)
+==453712==  Uninitialised value was created by a stack allocation
+==453712==    at 0x406FD4: void print<int, int, long, long, unsigned long, int, int>(char const*, int, int, long, long, unsigned long, int, int) (print.hpp:38)
+==453712== 
+29.KO 30.OK 31.OK 
+category: X
+1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7.OK 8.OK 9.OK 10.OK 11.OK 12.OK 13.OK 14.OK 15.OK 16.OK 17.OK 18.OK 19.OK 20.OK 21.OK 22.OK 23.OK 24.KO 25.KO 26.OK 27.KO 28.KO ==453763== Conditional jump or move depends on uninitialised value(s)
+==453763==    at 0x408106: ft_print_hexup (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x407B83: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x407949: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x4077A0: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x4072F5: void print<int, int, long, long, unsigned long, int, int>(char const*, int, int, long, long, unsigned long, int, int) (print.hpp:66)
+==453763==    by 0x405288: main (upperx_test.cpp:54)
+==453763==  Uninitialised value was created by a stack allocation
+==453763==    at 0x406FD4: void print<int, int, long, long, unsigned long, int, int>(char const*, int, int, long, long, unsigned long, int, int) (print.hpp:38)
+==453763== 
+==453763== Conditional jump or move depends on uninitialised value(s)
+==453763==    at 0x408135: ft_print_hexup (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x407B83: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x407949: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x4077A0: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x4072F5: void print<int, int, long, long, unsigned long, int, int>(char const*, int, int, long, long, unsigned long, int, int) (print.hpp:66)
+==453763==    by 0x405288: main (upperx_test.cpp:54)
+==453763==  Uninitialised value was created by a stack allocation
+==453763==    at 0x406FD4: void print<int, int, long, long, unsigned long, int, int>(char const*, int, int, long, long, unsigned long, int, int) (print.hpp:38)
+==453763== 
+==453763== Conditional jump or move depends on uninitialised value(s)
+==453763==    at 0x408106: ft_print_hexup (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x408147: ft_print_hexup (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x407B83: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x407949: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x4077A0: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x4072F5: void print<int, int, long, long, unsigned long, int, int>(char const*, int, int, long, long, unsigned long, int, int) (print.hpp:66)
+==453763==    by 0x405288: main (upperx_test.cpp:54)
+==453763==  Uninitialised value was created by a stack allocation
+==453763==    at 0x406FD4: void print<int, int, long, long, unsigned long, int, int>(char const*, int, int, long, long, unsigned long, int, int) (print.hpp:38)
+==453763== 
+==453763== Conditional jump or move depends on uninitialised value(s)
+==453763==    at 0x408135: ft_print_hexup (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x408147: ft_print_hexup (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x407B83: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x407949: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x4077A0: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x4072F5: void print<int, int, long, long, unsigned long, int, int>(char const*, int, int, long, long, unsigned long, int, int) (print.hpp:66)
+==453763==    by 0x405288: main (upperx_test.cpp:54)
+==453763==  Uninitialised value was created by a stack allocation
+==453763==    at 0x406FD4: void print<int, int, long, long, unsigned long, int, int>(char const*, int, int, long, long, unsigned long, int, int) (print.hpp:38)
+==453763== 
+==453763== Conditional jump or move depends on uninitialised value(s)
+==453763==    at 0x408106: ft_print_hexup (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x408147: ft_print_hexup (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x408147: ft_print_hexup (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x407B83: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x407949: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x4077A0: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x4072F5: void print<int, int, long, long, unsigned long, int, int>(char const*, int, int, long, long, unsigned long, int, int) (print.hpp:66)
+==453763==    by 0x405288: main (upperx_test.cpp:54)
+==453763==  Uninitialised value was created by a stack allocation
+==453763==    at 0x406FD4: void print<int, int, long, long, unsigned long, int, int>(char const*, int, int, long, long, unsigned long, int, int) (print.hpp:38)
+==453763== 
+==453763== Conditional jump or move depends on uninitialised value(s)
+==453763==    at 0x408135: ft_print_hexup (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x408147: ft_print_hexup (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x408147: ft_print_hexup (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x407B83: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x407949: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x4077A0: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x4072F5: void print<int, int, long, long, unsigned long, int, int>(char const*, int, int, long, long, unsigned long, int, int) (print.hpp:66)
+==453763==    by 0x405288: main (upperx_test.cpp:54)
+==453763==  Uninitialised value was created by a stack allocation
+==453763==    at 0x406FD4: void print<int, int, long, long, unsigned long, int, int>(char const*, int, int, long, long, unsigned long, int, int) (print.hpp:38)
+==453763== 
+==453763== Conditional jump or move depends on uninitialised value(s)
+==453763==    at 0x408106: ft_print_hexup (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x408147: ft_print_hexup (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x408147: ft_print_hexup (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x408147: ft_print_hexup (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x407B83: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x407949: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x4077A0: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x4072F5: void print<int, int, long, long, unsigned long, int, int>(char const*, int, int, long, long, unsigned long, int, int) (print.hpp:66)
+==453763==    by 0x405288: main (upperx_test.cpp:54)
+==453763==  Uninitialised value was created by a stack allocation
+==453763==    at 0x406FD4: void print<int, int, long, long, unsigned long, int, int>(char const*, int, int, long, long, unsigned long, int, int) (print.hpp:38)
+==453763== 
+==453763== Conditional jump or move depends on uninitialised value(s)
+==453763==    at 0x408135: ft_print_hexup (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x408147: ft_print_hexup (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x408147: ft_print_hexup (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x408147: ft_print_hexup (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x407B83: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x407949: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x4077A0: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x4072F5: void print<int, int, long, long, unsigned long, int, int>(char const*, int, int, long, long, unsigned long, int, int) (print.hpp:66)
+==453763==    by 0x405288: main (upperx_test.cpp:54)
+==453763==  Uninitialised value was created by a stack allocation
+==453763==    at 0x406FD4: void print<int, int, long, long, unsigned long, int, int>(char const*, int, int, long, long, unsigned long, int, int) (print.hpp:38)
+==453763== 
+==453763== Syscall param write(buf) contains uninitialised byte(s)
+==453763==    at 0x4CB8887: write (write.c:26)
+==453763==    by 0x408122: ft_print_hexup (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x408147: ft_print_hexup (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x408147: ft_print_hexup (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x408147: ft_print_hexup (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x408147: ft_print_hexup (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x408147: ft_print_hexup (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x408147: ft_print_hexup (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x408147: ft_print_hexup (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x408147: ft_print_hexup (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x408147: ft_print_hexup (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x407B83: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==  Uninitialised value was created by a stack allocation
+==453763==    at 0x406FD4: void print<int, int, long, long, unsigned long, int, int>(char const*, int, int, long, long, unsigned long, int, int) (print.hpp:38)
+==453763== 
+==453763== Conditional jump or move depends on uninitialised value(s)
+==453763==    at 0x408106: ft_print_hexup (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x40815A: ft_print_hexup (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x408147: ft_print_hexup (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x408147: ft_print_hexup (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x408147: ft_print_hexup (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x408147: ft_print_hexup (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x408147: ft_print_hexup (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x408147: ft_print_hexup (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x408147: ft_print_hexup (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x408147: ft_print_hexup (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x407B83: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x407949: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==  Uninitialised value was created by a stack allocation
+==453763==    at 0x406FD4: void print<int, int, long, long, unsigned long, int, int>(char const*, int, int, long, long, unsigned long, int, int) (print.hpp:38)
+==453763== 
+==453763== Syscall param write(buf) contains uninitialised byte(s)
+==453763==    at 0x4CB8887: write (write.c:26)
+==453763==    by 0x408122: ft_print_hexup (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x40815A: ft_print_hexup (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x408147: ft_print_hexup (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x408147: ft_print_hexup (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x408147: ft_print_hexup (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x408147: ft_print_hexup (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x408147: ft_print_hexup (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x408147: ft_print_hexup (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x408147: ft_print_hexup (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x408147: ft_print_hexup (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==    by 0x407B83: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/upperx_test)
+==453763==  Uninitialised value was created by a stack allocation
+==453763==    at 0x406FD4: void print<int, int, long, long, unsigned long, int, int>(char const*, int, int, long, long, unsigned long, int, int) (print.hpp:38)
+==453763== 
+29.KO 30.OK 31.OK 
+category: %
+1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7.OK 
+category: mix
+==453802== Conditional jump or move depends on uninitialised value(s)
+==453802==    at 0x406136: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x405BF6: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x405A29: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x405880: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x4053C7: void print<char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int>(char const*, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int) (print.hpp:66)
+==453802==    by 0x404E2C: main (mix_test.cpp:26)
+==453802==  Uninitialised value was created by a stack allocation
+==453802==    at 0x404E6D: void print<char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int>(char const*, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int) (print.hpp:38)
+==453802== 
+==453802== Conditional jump or move depends on uninitialised value(s)
+==453802==    at 0x406165: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x405BF6: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x405A29: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x405880: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x4053C7: void print<char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int>(char const*, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int) (print.hpp:66)
+==453802==    by 0x404E2C: main (mix_test.cpp:26)
+==453802==  Uninitialised value was created by a stack allocation
+==453802==    at 0x404E6D: void print<char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int>(char const*, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int) (print.hpp:38)
+==453802== 
+==453802== Conditional jump or move depends on uninitialised value(s)
+==453802==    at 0x406136: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x406177: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x405BF6: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x405A29: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x405880: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x4053C7: void print<char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int>(char const*, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int) (print.hpp:66)
+==453802==    by 0x404E2C: main (mix_test.cpp:26)
+==453802==  Uninitialised value was created by a stack allocation
+==453802==    at 0x404E6D: void print<char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int>(char const*, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int) (print.hpp:38)
+==453802== 
+==453802== Syscall param write(buf) contains uninitialised byte(s)
+==453802==    at 0x4CB8887: write (write.c:26)
+==453802==    by 0x406152: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x406177: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x405BF6: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x405A29: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x405880: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x4053C7: void print<char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int>(char const*, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int) (print.hpp:66)
+==453802==    by 0x404E2C: main (mix_test.cpp:26)
+==453802==  Uninitialised value was created by a stack allocation
+==453802==    at 0x404E6D: void print<char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int>(char const*, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int) (print.hpp:38)
+==453802== 
+==453802== Conditional jump or move depends on uninitialised value(s)
+==453802==    at 0x4061E6: ft_print_hexup (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x405C63: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x405A29: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x405880: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x4053C7: void print<char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int>(char const*, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int) (print.hpp:66)
+==453802==    by 0x404E2C: main (mix_test.cpp:26)
+==453802==  Uninitialised value was created by a stack allocation
+==453802==    at 0x404E6D: void print<char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int>(char const*, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int) (print.hpp:38)
+==453802== 
+==453802== Conditional jump or move depends on uninitialised value(s)
+==453802==    at 0x406215: ft_print_hexup (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x405C63: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x405A29: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x405880: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x4053C7: void print<char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int>(char const*, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int) (print.hpp:66)
+==453802==    by 0x404E2C: main (mix_test.cpp:26)
+==453802==  Uninitialised value was created by a stack allocation
+==453802==    at 0x404E6D: void print<char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int>(char const*, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int) (print.hpp:38)
+==453802== 
+==453802== Conditional jump or move depends on uninitialised value(s)
+==453802==    at 0x4061E6: ft_print_hexup (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x406227: ft_print_hexup (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x405C63: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x405A29: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x405880: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x4053C7: void print<char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int>(char const*, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int) (print.hpp:66)
+==453802==    by 0x404E2C: main (mix_test.cpp:26)
+==453802==  Uninitialised value was created by a stack allocation
+==453802==    at 0x404E6D: void print<char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int>(char const*, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int) (print.hpp:38)
+==453802== 
+==453802== Syscall param write(buf) contains uninitialised byte(s)
+==453802==    at 0x4CB8887: write (write.c:26)
+==453802==    by 0x406202: ft_print_hexup (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x406227: ft_print_hexup (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x405C63: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x405A29: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x405880: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x4053C7: void print<char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int>(char const*, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int) (print.hpp:66)
+==453802==    by 0x404E2C: main (mix_test.cpp:26)
+==453802==  Uninitialised value was created by a stack allocation
+==453802==    at 0x404E6D: void print<char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int>(char const*, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int) (print.hpp:38)
+==453802== 
+==453802== Conditional jump or move depends on uninitialised value(s)
+==453802==    at 0x406165: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x406177: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x405BF6: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x405A29: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x405880: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x4053C7: void print<char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int>(char const*, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int) (print.hpp:66)
+==453802==    by 0x404E2C: main (mix_test.cpp:26)
+==453802==  Uninitialised value was created by a stack allocation
+==453802==    at 0x404E6D: void print<char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int>(char const*, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int) (print.hpp:38)
+==453802== 
+==453802== Conditional jump or move depends on uninitialised value(s)
+==453802==    at 0x406136: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x406177: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x406177: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x405BF6: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x405A29: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x405880: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x4053C7: void print<char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int>(char const*, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int) (print.hpp:66)
+==453802==    by 0x404E2C: main (mix_test.cpp:26)
+==453802==  Uninitialised value was created by a stack allocation
+==453802==    at 0x404E6D: void print<char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int>(char const*, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int) (print.hpp:38)
+==453802== 
+==453802== Conditional jump or move depends on uninitialised value(s)
+==453802==    at 0x406165: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x406177: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x406177: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x405BF6: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x405A29: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x405880: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x4053C7: void print<char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int>(char const*, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int) (print.hpp:66)
+==453802==    by 0x404E2C: main (mix_test.cpp:26)
+==453802==  Uninitialised value was created by a stack allocation
+==453802==    at 0x404E6D: void print<char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int>(char const*, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int) (print.hpp:38)
+==453802== 
+==453802== Conditional jump or move depends on uninitialised value(s)
+==453802==    at 0x406136: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x406177: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x406177: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x406177: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x405BF6: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x405A29: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x405880: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x4053C7: void print<char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int>(char const*, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int) (print.hpp:66)
+==453802==    by 0x404E2C: main (mix_test.cpp:26)
+==453802==  Uninitialised value was created by a stack allocation
+==453802==    at 0x404E6D: void print<char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int>(char const*, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int) (print.hpp:38)
+==453802== 
+==453802== Conditional jump or move depends on uninitialised value(s)
+==453802==    at 0x406165: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x406177: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x406177: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x406177: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x405BF6: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x405A29: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x405880: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x4053C7: void print<char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int>(char const*, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int) (print.hpp:66)
+==453802==    by 0x404E2C: main (mix_test.cpp:26)
+==453802==  Uninitialised value was created by a stack allocation
+==453802==    at 0x404E6D: void print<char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int>(char const*, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int) (print.hpp:38)
+==453802== 
+==453802== Syscall param write(buf) contains uninitialised byte(s)
+==453802==    at 0x4CB8887: write (write.c:26)
+==453802==    by 0x406152: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x406177: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x406177: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x406177: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x406177: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x406177: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x406177: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x406177: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x405BF6: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x405A29: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x405880: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==  Uninitialised value was created by a stack allocation
+==453802==    at 0x404E6D: void print<char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int>(char const*, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int) (print.hpp:38)
+==453802== 
+==453802== Syscall param write(buf) contains uninitialised byte(s)
+==453802==    at 0x4CB8887: write (write.c:26)
+==453802==    by 0x406152: ft_print_hexlow (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x405BF6: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x405A29: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x405880: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x4053C7: void print<char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int>(char const*, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int) (print.hpp:66)
+==453802==    by 0x404E2C: main (mix_test.cpp:26)
+==453802==  Uninitialised value was created by a stack allocation
+==453802==    at 0x404E6D: void print<char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int>(char const*, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int) (print.hpp:38)
+==453802== 
+1.KO ==453802== 4 bytes in 2 blocks are definitely lost in loss record 1 of 3
+==453802==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453802==    by 0x405EAE: ft_special (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x405DCC: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x405AD9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x405A29: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x405880: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x4053C7: void print<char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int>(char const*, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int) (print.hpp:66)
+==453802==    by 0x404E2C: main (mix_test.cpp:26)
+==453802== 
+==453802== 14 bytes in 4 blocks are definitely lost in loss record 2 of 3
+==453802==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453802==    by 0x405DF4: ft_itoa (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x405AD9: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x405A29: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x405880: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x4053C7: void print<char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int>(char const*, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int) (print.hpp:66)
+==453802==    by 0x404E2C: main (mix_test.cpp:26)
+==453802== 
+==453802== 15 bytes in 3 blocks are definitely lost in loss record 3 of 3
+==453802==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==453802==    by 0x406048: ft_unitoa (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x405B67: ft_check_numbers (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x405A29: ft_check_chars (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x405880: ft_printf (in /home/gtretiak/CommonCore/printf/printfTester/mix_test)
+==453802==    by 0x4053C7: void print<char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int>(char const*, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, char, char const*, int, int, int, int, int, int) (print.hpp:66)
+==453802==    by 0x404E2C: main (mix_test.cpp:26)
+==453802== 
+
