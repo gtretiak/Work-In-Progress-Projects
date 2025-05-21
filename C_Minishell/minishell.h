@@ -6,7 +6,7 @@
 /*   By: gtretiak <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/21 13:01:48 by gtretiak          #+#    #+#             */
-/*   Updated: 2025/05/14 14:12:19 by gtretiak         ###   ########.fr       */
+/*   Updated: 2025/05/21 17:24:38 by gtretiak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,6 +47,8 @@ typedef struct s_token
 	int				is_empty_quotes;
 	int				is_invalid;
 	int				is_literal;
+	char			*infile;
+	char			*outfile;
 }	t_token;
 
 typedef struct s_env
@@ -92,21 +94,24 @@ typedef struct s_parser
 
 typedef struct s_mini
 {
+	char		*input;
+	char		*prompt;
 	t_parser	*state;
 	t_env		*export;
 	t_token		*token;
-	char		*input;
-	char		*prompt;
-	char		*current_cmd;
-	char		*output;
 	int			exit_status;
 	int			exit_status_count;
 	int			count;
 	int			in_quotes;
+	char		*current_cmd;
+	char		*output;
 	int			none;
 	int			pipe;
 	int			redirect;
 	int			expr;
+	int			expr_seen;
+	int			heredoc;
+	int			echo;
 }	t_mini;
 
 typedef enum e_cmd_type
@@ -185,10 +190,12 @@ void	exec(t_mini *ms);
 void	ft_exec_token_list(t_mini *ms);
 int		ft_handle_token(t_token *current, t_token *prev, t_mini *ms);
 int		execute_command(t_token *cmd, t_mini *ms);
+char	*find_command_path(const char *cmd, t_mini *ms);
 int		loop(t_token *cmd, int *stdout_backup);
 int		handle_redirect_out(t_token *file_token, int stdout_backup);
-int		ft_execute_child(t_token *cmd);
-int		ft_execute_parent(pid_t pid);
+int		ft_execute_child(t_token *cmd, t_mini *ms);
+void	execute_child_process(t_token *current, t_mini *ms);
+int		ft_execute_parent(t_mini *ms, pid_t pid);
 int		is_builtin(const char *cmd);
 
 //Builtins
@@ -196,7 +203,7 @@ int		exec_builtin(t_token *token, t_mini *ms);
 void	exec_pwd(t_token *token);
 void	exec_unset(t_token *token, t_mini *mini);
 void	exec_env(t_token *token, t_mini *mini);
-void	exec_exit(t_token *token);
+void	exec_exit(t_token *token, t_mini *ms);
 //Echo
 void	exec_echo(t_token *token, t_mini *mini);
 int		has_redirection(t_token *token);
@@ -223,8 +230,6 @@ void	handle_child_process(t_token *current, t_mini *ms, t_pipe_ctx *ctx);
 void	close_and_free_pipes(t_pipe_ctx *ctx);
 int		exec_redirect(t_token *token, t_mini *ms);
 int		exec_heredoc(t_token *token, t_mini *ms);
-int		ft_handle_heredoc_input(const t_token *next, int fd[2]);
-int		ft_validate_token(t_token *token, t_token **next);
 void	setup_pipe_token(t_token *current, t_mini *ms);
 void	setup_redirect_out_token(t_token *current, t_mini *ms);
 void	setup_redirect_in_token(t_token *current, t_mini *ms);
@@ -258,14 +263,85 @@ void	free_env_list(t_env *head);
 //Utils
 int		ft_strcmp(char *s1, char *s2);
 int		is_redirect_out(char *cmd);
-int		is_redirect_in(char *cmd);
+int		is_redirect_in(char *cmd, t_mini *ms);
 int		is_exec_command(char *cmd);
 int		is_builtin_command(char *cmd);
 int		is_math_operator(t_token *current);
 int		is_in_expr_context(t_token *prev);
-
 void	ft_handle_flag(t_token **next, int *nl_flag);
 int		ft_is_valid_n_flag(char *s, int *len);
 int		ft_skip_n_flags(char *input, int *nl_flag);
+void	set_child_pipes(int **pipe_fds, int cmd_index, int pipe_count);
+int		exec_pipe_with_redirects(t_mini *ms);
+t_token	*ft_unlink_tokens(t_token *token, t_token *next);
+int		ft_open_redirect_file(t_token *token, t_token *next);
+int		ft_redir_exec_setup(int fd, int is_input);
+char	**env_to_array(t_env *env);
+void	free_env_array(char **env_array);
+void	free_args_array(char **args);
+int		exec_heredoc_with_pipes(t_mini *ms);
+int		exec_heredoc_with_pipes(t_mini *ms);
+int		process_special_token2(t_token *token, t_mini *ms,
+			int *has_output_redirect);
+void	setup_child_pipes(int **pipe_fds, int cmd_index,
+			int pipe_count, int has_output_redirect);
+int		handle_redirect(t_token *token, t_mini *ms);
+int		setup_heredoc(t_token *token, t_mini *ms);
+t_token	*find_command(t_token *current);
+void	execute_child(t_token *start_token, t_mini *ms, t_pipe_ctx *ctx);
+t_token	*next_command(t_token *current);
+int		process_command(t_token **current, t_mini *ms, t_pipe_ctx *ctx);
+int		execute_pipeline(t_mini *ms, t_pipe_ctx *ctx);
+int		**init_pipes2(int pipe_count);
+void	close_pipes(t_pipe_ctx *ctx);
+void	setup_child_pipes(int **pipe_fds, int cmd_index,
+			int pipe_count, int has_output_redirect);
+void	execute_child(t_token *start_token, t_mini *ms, t_pipe_ctx *ctx);
+int		process_command(t_token **current, t_mini *ms, t_pipe_ctx *ctx);
+int		execute_pipeline(t_mini *ms, t_pipe_ctx *ctx);
+int		update_exit_status(t_mini *ms, int status);
+void	close_all_pipe_fds(int **pipe_fds, int pipe_count);
+void	dup_pipe_ends(int **pipe_fds, int cmd_index,
+			int pipe_count, int has_output_redirect);
+void	execute_child(t_token *start_token, t_mini *ms, t_pipe_ctx *ctx);
+void	execute_child_part2(t_token *cmd_token, t_mini *ms,
+			t_pipe_ctx *ctx, int has_output_redirect);
+t_token	*find_command(t_token *current);
+int		process_special_token2(t_token *token, t_mini *ms,
+			int *has_output_redirect);
+int		ft_handle_heredoc_input(const t_token *next, int fd[2]);
+int		ft_execute_builtin(t_token *cmd_token, t_mini *ms, int fd);
+int		ft_execute_external(t_token *cmd_token, t_mini *ms, int fd);
+int		ft_heredoc_default(int fd);
+void	handle_execve_with_args(t_token *current, t_mini *ms, char **envp);
+int		ft_execute_special_in_child(t_token *current, t_mini *ms);
+void	set_child_pipes(int **pipe_fds, int cmd_index, int pipe_count);
+void	handle_execve_with_cmd(t_token *current, t_mini *ms, char **envp);
+void	handle_execve_error(char *path, char **envp);
+int		ft_redirect_execution(t_token *cmd, t_mini *ms,
+			int fd, int is_input);
+void	ft_relink_tokens(t_token *token, t_token *next, t_token *after);
+
+void	close_pipe_ends(t_pipe_ctx *ctx);
+void	close_all_pipes_in_child(t_pipe_ctx *ctx);
+void	prepare_child_io(t_pipe_ctx *ctx);
+int		setup_redirects(t_token *token, t_token **next_cmd);
+int		setup_redirect_single(t_token *token, t_token *next,
+			t_token **after);
+int		process_redirect_file(t_token *token, t_token *next);
+void	close_and_free_pipes1(t_pipe_ctx *ctx);
+int		**init_pipes1(int count);
+void	handle_child_process1(t_token *cmd, t_mini *ms, t_pipe_ctx *ctx);
+void	display_command_not_found(t_token *token, t_mini *ms);
+int		is_valid_for_processing(t_mini *ms);
+void	ft_decide_on_exit_status(t_parser *state, t_mini *ms);
+void	free_token_content(t_token *token);
+void	execute_cmd(t_token *cmd, t_mini *ms);
+void	ft_exec_token_list(t_mini *ms);
+void	process_special_token(t_token *special_token, t_mini *ms);
+int		ft_handle_token(t_token *current, t_token *prev, t_mini *ms);
+t_token	*find_special_token(t_token *current);
+int		handle_input_line(char *line, t_mini *ms);
+void	restore_child_tty(void);
 
 #endif

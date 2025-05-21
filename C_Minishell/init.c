@@ -6,7 +6,7 @@
 /*   By: gtretiak <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/21 12:22:31 by gtretiak          #+#    #+#             */
-/*   Updated: 2025/05/14 12:22:00 by gtretiak         ###   ########.fr       */
+/*   Updated: 2025/05/12 16:18:29 by gtretiak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,8 +34,8 @@ t_mini	init(char **envp)
 	ms.expr = 0;
 	ms.output = NULL;
 	ms.current_cmd = NULL;
-	disable_ctrl_backslash();
-	setup_signals();
+	ms.heredoc = 0;
+	ms.echo = 0;
 	return (ms);
 }
 
@@ -73,30 +73,6 @@ char	*get_var(char *s)
 	}
 	var[i] = '\0';
 	return (var);
-}
-
-void	create_node(t_env **head, char *s)
-{
-	t_env	*node;
-	t_env	*last;
-
-	node = malloc(sizeof(t_env));
-	if (!node)
-		return ;
-	node->content = ft_strdup(s);
-	node->var = get_var(s);
-	node->next = NULL;
-	if (!(*head))
-	{
-		*head = node;
-		node->prev = NULL;
-	}
-	else
-	{
-		last = ft_last(*head);
-		node->prev = last;
-		last->next = node;
-	}
 }
 
 t_env	*ft_last(t_env *head)
