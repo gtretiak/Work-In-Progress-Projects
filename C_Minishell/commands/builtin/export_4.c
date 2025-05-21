@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   export_4.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gtretiak <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: husamuel <husamuel@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/23 19:11:07 by gtretiak          #+#    #+#             */
-/*   Updated: 2025/04/23 19:11:10 by gtretiak         ###   ########.fr       */
+/*   Updated: 2025/05/20 21:33:02 by husamuel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,18 +17,22 @@ char	*get_end_arg(char *input, int *i);
 char	*append_info_to_var(char *var, char *input, int *i, t_mini *mini);
 char	*get_2var(char *input, int i);
 
-// finds end of argument / creates string without quotes
 char	*get_end_arg(char *input, int *i)
 {
 	char	*arg;
+	int		start;
 
+	if (input[*i] != '=')
+		return (NULL);
+	(*i)++;
+	start = *i;
 	while (input[*i] && input[*i] != ' ')
 	{
 		if (input[*i] == '\'' || input[*i] == '\"')
 			count_till_char(input, i, input[*i]);
 		(*i)++;
 	}
-	arg = get_2var(input, *i);
+	arg = ft_substr(input, start, *i - start);
 	return (arg);
 }
 
@@ -51,7 +55,6 @@ char	*append_info_to_var(char *var, char *input, int *i, t_mini *mini)
 	return (join);
 }
 
-// create string with i elements via malloc / taking out the quotes
 char	*get_2var(char *input, int i)
 {
 	char	*content;
@@ -77,7 +80,6 @@ char	*get_2var(char *input, int i)
 	return (arg);
 }
 
-// increment i till found char return position char
 void	count_till_char(char *input, int *i, char c)
 {
 	if (c == '\'' || c == '\"')

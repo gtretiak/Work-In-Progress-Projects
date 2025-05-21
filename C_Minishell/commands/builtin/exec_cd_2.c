@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   exec_cd_2.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gtretiak <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: husamuel <husamuel@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/23 18:54:04 by gtretiak          #+#    #+#             */
-/*   Updated: 2025/04/23 18:54:07 by gtretiak         ###   ########.fr       */
+/*   Updated: 2025/05/20 18:09:54 by husamuel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,20 +33,17 @@ void	update_var(char *oldpwd, char *pwd, t_mini *mini)
 	}
 }
 
-// return var content with malloc or NULL if not found
 char	*expand_var(char *var, t_env *ev)
 {
-	int		i;
 	char	*content;
 
-	i = ft_strlen(var) + 1;
 	content = NULL;
 	while (ev)
 	{
 		if (ft_strcmp(ev->var, var) == 0)
 		{
 			if (ev->content)
-				content = ft_strdup(ev->content + i);
+				content = ft_strdup(ev->content);
 			break ;
 		}
 		ev = ev->next;
@@ -90,7 +87,7 @@ int	ft_strcmp(char *s1, char *s2)
 
 	if (!s1 || !s2)
 	{
-		printf("Error strcmp: NULL string");
+		printf("Error ft_strcmp: NULL string");
 		return (1);
 	}
 	i = 0;

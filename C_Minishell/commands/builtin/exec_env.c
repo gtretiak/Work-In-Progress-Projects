@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   exec_env.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gtretiak <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: husamuel <husamuel@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/23 19:08:37 by gtretiak          #+#    #+#             */
-/*   Updated: 2025/04/23 19:08:45 by gtretiak         ###   ########.fr       */
+/*   Updated: 2025/05/20 18:09:42 by husamuel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,19 +15,13 @@
 void	exec_env(t_token *token, t_mini *mini)
 {
 	t_env	*ev;
-	int		i;
 
-	i = 0;
-	ev = mini->export;
 	(void)token;
+	ev = mini->export;
 	while (ev)
 	{
-		if (ev->content)
-		{
-			printf("%s\n", ev->content);
-			i++;
-		}
+		if (ev->var && ev->content)
+			printf("%s=%s\n", ev->var, ev->content);
 		ev = ev->next;
 	}
-	printf("\n");
 }

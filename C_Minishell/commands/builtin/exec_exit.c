@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   exec_exit.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gtretiak <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: husamuel <husamuel@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/23 19:08:56 by gtretiak          #+#    #+#             */
-/*   Updated: 2025/05/12 15:38:14 by gtretiak         ###   ########.fr       */
+/*   Updated: 2025/05/20 18:11:09 by husamuel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "./../../minishell.h"
 
-void	exec_exit(t_token *token)
+void	exec_exit(t_token *token, t_mini *ms)
 {
 	int	i;
 
@@ -28,12 +28,14 @@ void	exec_exit(t_token *token)
 			{
 				printf("minishell: exit: %s: "
 					"numeric argument required\n", token->args[1]);
-				exit(2);
+				ms->exit_status = 2;
+				exit(ms->exit_status);
 			}
 			i++;
 		}
-		exit(ft_atoi(token->args[1]));
+		ms->exit_status = ft_atoi(token->args[1]);
+		exit(ms->exit_status);
 	}
 	else
-		exit(0);
+		exit(ms->exit_status = 0);
 }
