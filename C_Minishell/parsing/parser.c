@@ -9,13 +9,13 @@
 /*   Updated: 2025/05/02 16:56:44 by gtretiak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "./../minishell.h"
 
-int parser(t_parser *state, t_mini *ms)
+int	parser(t_parser *state, t_mini *ms)
 {
 	if (!ms || !ms->input)
 		return (0);
-	
 	if (state->curr)
 		ft_free_minishell(ms, 1);
 	state->curr = ms->token;
@@ -28,6 +28,5 @@ int parser(t_parser *state, t_mini *ms)
 		state->prev = state->curr;
 		state->curr = state->curr->next;
 	}
-	
 	return (1);
 }

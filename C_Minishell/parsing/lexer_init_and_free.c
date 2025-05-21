@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   lexer_init_and_free.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gtretiak <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: husamuel <husamuel@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/27 17:28:34 by gtretiak          #+#    #+#             */
-/*   Updated: 2025/04/27 17:31:25 by gtretiak         ###   ########.fr       */
+/*   Updated: 2025/05/20 19:18:01 by husamuel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,19 +30,12 @@ t_token	*create_new_token(char *cmd)
 	new_token = malloc(sizeof(t_token));
 	if (!new_token)
 		return (NULL);
+	ft_memset(new_token, 0, sizeof(t_token));
 	if (cmd)
 		new_token->cmd = ft_strdup(cmd);
 	else
 		new_token->cmd = NULL;
 	new_token->type = CMD_NONE;
-	new_token->args_file = NULL;
-	new_token->args = NULL;
-	new_token->next = NULL;
-	new_token->prev = NULL;
-	new_token->quoted = 0;
-	new_token->quoted_type = 0;
-	new_token->is_invalid = 0;
-	new_token->is_literal = 0;
 	return (new_token);
 }
 

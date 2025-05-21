@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   quotes_handler.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gtretiak <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: husamuel <husamuel@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/05/14 14:40:40 by gtretiak          #+#    #+#             */
-/*   Updated: 2025/05/14 14:52:21 by gtretiak         ###   ########.fr       */
+/*   Created: 2025/05/20 19:17:31 by husamuel          #+#    #+#             */
+/*   Updated: 2025/05/21 07:57:14 by husamuel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,11 +44,40 @@ static void	ft_set_quote_type(t_token *token, int len)
 	}
 }
 
+static void	process_empty_quotes(t_token *token)
+{
+	char	*result;
+
+	token->is_empty_quotes = 1;
+	result = malloc(1);
+	if (result)
+	{
+		result[0] = '\0';
+		free(token->cmd);
+		token->cmd = result;
+	}
+}
+
+static void	process_quoted_content(t_token *token, int len)
+{
+	char	*result;
+	int		i;
+
+	result = malloc(len - 1);
+	if (result)
+	{
+		i = 0;
+		while (++i < len - 1)
+			result[i - 1] = token->cmd[i];
+		result[len - 2] = '\0';
+		free(token->cmd);
+		token->cmd = result;
+	}
+}
+
 void	process_quotes(t_token *token)
 {
 	int		len;
-	char	*result;
-	int		i;
 
 	if (!token || !token->cmd)
 		return ;
@@ -59,32 +88,8 @@ void	process_quotes(t_token *token)
 		check_literal_chars(token, len);
 		if (len == 2 && ((token->cmd[0] == '"' && token->cmd[1] == '"')
 				|| (token->cmd[0] == '\'' && token->cmd[1] == '\'')))
-		{
-			token->is_empty_quotes = 1;
-			result = malloc(1);
-			if (result)
-			{
-				result[0] = '\0';
-				free(token->cmd);
-				token->cmd = result;
-			}
-		}
+			process_empty_quotes(token);
 		else
-		{
-			result = malloc(len - 1);
-			if (result)
-			{
-				i = 0;
-				while (++i < len - 1)
-					result[i - 1] = token->cmd[i];
-				result[len - 2] = '\0';
-				free(token->cmd);
-				token->cmd = result;
-			}
-		}
+			process_quoted_content(token, len);
 	}
 }
-/*	Caso especial: aspas vazias ("" ou '')
-	Criar uma flag ou marcador especial para o token vazio
-	String vazia para o processamento normal
-        Processamento normal para aspas não vazias*/

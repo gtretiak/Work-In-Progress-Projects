@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   token_processor.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gtretiak <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: husamuel <husamuel@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/27 15:27:55 by gtretiak          #+#    #+#             */
-/*   Updated: 2025/04/27 15:27:58 by gtretiak         ###   ########.fr       */
+/*   Updated: 2025/05/20 18:52:32 by husamuel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,8 +42,12 @@ int	is_redirect_out(char *cmd)
 		|| (ft_strlen(cmd) >= 2 && cmd[0] == '>' && cmd[1] == '>'));
 }
 
-int	is_redirect_in(char *cmd)
+int	is_redirect_in(char *cmd, t_mini *ms)
 {
+	if (!cmd)
+		return (0);
+	if (ft_strlen(cmd) >= 2 && cmd[0] == '<' && cmd[1] == '<')
+		ms->heredoc = 1;
 	return (cmd[0] == '<'
 		|| (ft_strlen(cmd) >= 2 && cmd[0] == '<' && cmd[1] == '<'));
 }

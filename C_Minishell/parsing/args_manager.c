@@ -3,87 +3,84 @@
 /*                                                        :::      ::::::::   */
 /*   args_manager.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gtretiak <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: husamuel <husamuel@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/27 17:39:54 by gtretiak          #+#    #+#             */
-/*   Updated: 2025/04/27 17:41:18 by gtretiak         ###   ########.fr       */
+/*   Updated: 2025/05/20 18:54:46 by husamuel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "./../minishell.h"
 
-void add_to_args(t_token *token, char *arg)
+static int	count_args(char **args)
 {
-    int i;
-    char **new_args;
-    
-    i = 0;
-    if (token->args)
-    {
-        while (token->args[i])
-            i++;
-    }
-    
-    new_args = malloc(sizeof(char *) * (i + 2));
-    if (!new_args)
-        return;
-    
-    if (token->args)
-    {
-        i = 0;
-        while (token->args[i])
-        {
-            new_args[i] = token->args[i];
-            i++;
-        }
-        free(token->args);
-    }
-    
-    new_args[i] = ft_strdup(arg);
-    if (!new_args[i])
-    {
-        free(new_args);
-        return;
-    }
-    
-    new_args[i + 1] = NULL;
-    token->args = new_args;
+	int	i;
+
+	i = 0;
+	if (args)
+	{
+		while (args[i])
+			i++;
+	}
+	return (i);
 }
 
-void add_to_args_file(t_token *token, char *arg)
+static char	**alloc_new_args(char *arg, int old_count)
 {
-    int i;
-    char **new_args;
-    
-    i = 0;
-    if (token->args_file)
-    {
-        while (token->args_file[i])
-            i++;
-    }
-    
-    new_args = malloc(sizeof(char *) * (i + 2));
-    if (!new_args)
-        return;
-    
-    if (token->args_file)
-    {
-        i = 0;
-        while (token->args_file[i])
-        {
-            new_args[i] = token->args_file[i];
-            i++;
-        }
-        free(token->args_file);  // Libera apenas o array, não os strings
-    }
-    
-    new_args[i] = ft_strdup(arg);
-    if (!new_args[i])  // Verificação de erro para ft_strdup
-    {
-        free(new_args);
-        return;
-    }
-    
-    new_args[i + 1] = NULL;
-    token->args_file = new_args;
+	char	**new_args;
+	char	*new_str;
+
+	new_str = ft_strdup(arg);
+	if (!new_str)
+		return (NULL);
+	new_args = malloc(sizeof(char *) * (old_count + 2));
+	if (!new_args)
+	{
+		free(new_str);
+		return (NULL);
+	}
+	new_args[old_count + 1] = NULL;
+	new_args[old_count] = new_str;
+	return (new_args);
+}
+
+static void	copy_and_free_old_args(char **old, char **new_args, int count)
+{
+	int	i;
+
+	i = 0;
+	while (i < count)
+	{
+		new_args[i] = old[i];
+		i++;
+	}
+	free(old);
+}
+
+void	add_to_args(t_token *token, char *arg)
+{
+	int		count;
+	char	**new_args;
+
+	count = count_args(token->args);
+	new_args = alloc_new_args(arg, count);
+	if (!new_args)
+		return ;
+	if (token->args)
+		copy_and_free_old_args(token->args, new_args, count);
+	token->args = new_args;
+}
+
+void	add_to_args_file(t_token *token, char *arg)
+{
+	int		count;
+	char	**new_args;
+
+	count = count_args(token->args_file);
+	new_args = alloc_new_args(arg, count);
+	if (!new_args)
+		return ;
+	if (token->args_file)
+		copy_and_free_old_args(token->args_file, new_args, count);
+	token->args_file = new_args;
 }
