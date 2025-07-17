@@ -99,7 +99,7 @@ char	*get_next_line(int fd)
 	tmp[fd] = ft_take_rest(tmp[fd]);
 	return (res);
 }
-/*
+
 static int	ft_countlines(const char *s, char c);
 
 static int	ft_putstr_fd(char *s, int fd);
@@ -110,16 +110,16 @@ int	main(void)
 	int	fd2;
 	int	i;
 	char	*s = NULL;
-	char	*str1 = "Numbers:\nDec:0123456789\n";
+	char	*str1 = "Numbers:123 456 777\nDec:0123456789\n";
 	char	*str2 = "Hex:0123456789ABCDEF\nBin:01";
 	size_t	written;
 	int	words;
 
 	i = 1;
-	fd1 = open("bonus1.txt", O_RDWR | O_CREAT | O_TRUNC);
+	fd1 = open("bonus1.txt", O_RDWR | O_CREAT | O_TRUNC, 0666);
 	if (fd1 == -1)
 		printf("Error with a file: {-1}...program should stop...\n");
-	fd2 = open("bonus2.txt", O_RDWR | O_CREAT | O_TRUNC);
+	fd2 = open("bonus2.txt", O_RDWR | O_CREAT | O_TRUNC, 0666);
 	if (fd2 == -1)
 		printf("Error with a file: {-1}...program should stop...\n");
 	written = ft_putstr_fd(str1, fd1);
@@ -138,13 +138,13 @@ int	main(void)
 		if (s == NULL)
 			printf("Get_next_line returned NULL\n");
 		else
-			printf("Line %d:%s", i++, s);
+			printf("Line %d from the fd1:%s", i++, s);
 		free(s);
 		s = get_next_line(fd2);
 		if (s == NULL)
 			printf("Get_next_line returned NULL\n");
 		else
-			printf("Line %d:%s", i++, s);
+			printf("Line %d from the fd2:%s\n", i++, s);
 		words--;
 		words--;
 		free(s);
@@ -183,4 +183,4 @@ static int      ft_countlines(const char *s, char c)
                         i++;
         }
         return (count);
-}*/
+}

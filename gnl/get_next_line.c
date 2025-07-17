@@ -99,7 +99,7 @@ char	*get_next_line(int fd)
 	tmp = ft_take_rest(tmp);
 	return (res);
 }
-/*
+
 static int	ft_countlines(const char *s, char c);
 
 static int	ft_putstr_fd(char *s, int fd);
@@ -110,13 +110,13 @@ int	main(void)
 	int	newfd;
 	int	i;
 	char	*s = NULL;
-	char	*str = "Numbers:\nDec:0123456789\nHex:0123456789ABCDEF\nBin:01\0";
+	char	*str = "Numbers:777 666 111\nDec:0123456789\nHex:0123456789ABCDEF\nBin:01\0";
 	size_t	written;
 	int	words;
 	
 	fd = 0;
 	i = 1;
-	newfd = open("file.txt", O_RDWR | O_CREAT | O_TRUNC);
+	newfd = open("file.txt", O_RDWR | O_CREAT | O_TRUNC, 0666);
 	if (newfd == -1)
 		printf("Error with a file: {-1}...program should stop...\n");
 	else
@@ -132,7 +132,7 @@ int	main(void)
 		if (s == NULL)
 			printf("Get_next_line returned NULL\n");
 		else
-			printf("Line %d:%s", i++, s);
+			printf("Line %d:%s\n", i++, s);
 		words--;
 		free(s);
 	}
@@ -170,4 +170,4 @@ static int      ft_countlines(const char *s, char c)
                         i++;
         }
         return (count);
-}*/
+}
